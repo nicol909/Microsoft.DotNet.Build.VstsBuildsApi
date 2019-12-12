@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.SourceLink.AzureRepos.Git</id>
+    <version>1.0.0</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <developmentDependency>true</developmentDependency>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">Apache-2.0</license>
+    <icon>Icon.png</icon>
+    <projectUrl>https://github.com/dotnet/sourcelink</projectUrl>
+    <description>Generates source link for Azure Repos (formerly known as VSTS) Git repositories.</description>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>MSBuild Tasks Azure DevOps Repos VSTS Git source link</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/sourcelink" commit="f175b06862f889474b689a57527e489101c774cc" />
+    <dependencies>
+      <dependency id="Microsoft.SourceLink.Common" version="1.0.0" />
+      <dependency id="Microsoft.Build.Tasks.Git" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\Microsoft.SourceLink.AzureRepos.Git.props" target="build\Microsoft.SourceLink.AzureRepos.Git.props" />
+    <file src="build\Microsoft.SourceLink.AzureRepos.Git.targets" target="build\Microsoft.SourceLink.AzureRepos.Git.targets" />
+    <file src="buildMultiTargeting\Microsoft.SourceLink.AzureRepos.Git.props" target="buildMultiTargeting\Microsoft.SourceLink.AzureRepos.Git.props" />
+    <file src="buildMultiTargeting\Microsoft.SourceLink.AzureRepos.Git.targets" target="buildMultiTargeting\Microsoft.SourceLink.AzureRepos.Git.targets" />
+    <file src="tools\net461\cs\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\cs\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\de\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\de\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\es\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\es\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\fr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\fr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\it\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\it\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\ja\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\ja\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\ko\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\ko\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\pl\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\pl\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\pt-BR\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\pt-BR\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\ru\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\ru\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\tr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\tr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\zh-Hans\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\zh-Hans\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\zh-Hant\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\net461\zh-Hant\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\net461\Microsoft.SourceLink.AzureRepos.Git.dll" target="tools\net461\Microsoft.SourceLink.AzureRepos.Git.dll" />
+    <file src="tools\netcoreapp2.0\cs\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\cs\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\de\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\de\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\es\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\es\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\fr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\fr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\it\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\it\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\ja\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\ja\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\ko\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\ko\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\pl\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\pl\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\pt-BR\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\pt-BR\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\ru\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\ru\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\tr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\tr\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\zh-Hans\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\zh-Hans\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\zh-Hant\Microsoft.SourceLink.AzureRepos.Git.resources.dll" target="tools\netcoreapp2.0\zh-Hant\Microsoft.SourceLink.AzureRepos.Git.resources.dll" />
+    <file src="tools\netcoreapp2.0\Microsoft.SourceLink.AzureRepos.Git.dll" target="tools\netcoreapp2.0\Microsoft.SourceLink.AzureRepos.Git.dll" />
+    <file src="Icon.png" target="Icon.png" />
+  </files>
+</package>
